@@ -1,9 +1,18 @@
 # My Python Journey 🚀
 
 Hi, I'm Arkadeep Roy.  
-This repository captures my daily progress as I learn Python from Day 1 through Day 18.
 
-- ✅ Days 1–18 completed  
-- ⏳ Continuing this journey...
+This repository documents my daily progress as I learn Python step by step.  
+The goal is to become a **Junior Python Developer** through structured practice, projects, and consistency.
 
-Stay tuned for more!
+---
+
+## 📅 Progress
+
+- ✅ Days 1–18: Basics → Control Flow → Functions → File Handling & Exceptions  
+- 🔄 Currently on: Day 19 – Context Managers & Advanced String Methods  
+- ⏳ Upcoming: OOP, Django, Databases, Testing, and Projects  
+
+---
+
+## 📂 Repository Structure
