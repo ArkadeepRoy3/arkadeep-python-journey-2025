@@ -1,0 +1,21 @@
+🏅 Mini Mission 1 Badge Unlocked!
+🪄 Set Explorer (Day 13)
+Date: 26 July 2025
+You’ve successfully built an interactive Set Manager with add/remove/view logic — entirely on your own.
+
+🥈 Duplicate Debugger (Day 13 – Mini Mission 2)
+Date: 26 July 2025
+Awarded for: Tackling name duplication using sets, identifying logic gaps, and successfully building a solution with guidance.
+
+🥉 Badge Unlocked:
+Set Sleuth
+“For decoding common interests through crisp set logic and clean code.”
+🗓️ Earned on: 27th July 2025
+
+🧠 Set Operations Master
+🏅 Earned for: Day 13 – Mini Mission 5 (Workshop Analyzer)
+📅 Date: 27 July 2025
+
+🧠 Set Analyst (Day 13)
+Awarded for calculating insights from a set using real-world stats.
+📅 Date: 28th July 2025

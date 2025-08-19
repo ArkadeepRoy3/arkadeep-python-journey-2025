@@ -1,0 +1,39 @@
+✅ Day 14: String Mastery
+📅 Start Date: 29 July 2025
+🎯 Goal: Master real-world string operations (cleaning, validation, formatting, analysis)
+🎖️ Badge: 🧙‍♂️ String Sorcerer (complete all 6 missions)
+
+🔹 Core Concepts
+#	Topic	Description
+1	Immutability	Strings cannot be changed in-place
+2	Indexing & Slicing	Access parts of a string
+3	Case Conversion	.lower(), .upper(), .title()
+4	Validation Methods	isalnum(), isalpha(), isdigit(), startswith()
+5	Cleanup Methods	.strip(), .replace(), .split(), .join()
+6	Character & Word Analysis	Count vowels, find longest word, reverse text, etc.
+
+🧩 Mini Missions – Final & Official
+No.	Title	Focus
+1	Magic Mirror	Reversing, case tweaks
+2	Word Analyzer	Word count, vowels, longest word
+3	Login Validator	.startswith(), .isalnum()
+4	Name Beautifier	.title(), .strip(), cleanup
+5	Text Replacer	.replace(), sanitization
+6	String Stats Analyzer	Everything above, wrapped up 🎯
+
+🔬 Optional Practice Lab
+Task	Why Useful
+Email cleaner	Use .split('@'), .lower(), etc.
+Password checker	Check for digit, uppercase, etc.
+Shortener/expander	Use slicing and +
+
+🏁 End-of-Day Outcomes
+By the end of today, you’ll be able to:
+
+Confidently use all core string methods
+
+Validate usernames and inputs cleanly
+
+Format and sanitize messy input
+
+Write small string utilities like analyzers and beautifiers

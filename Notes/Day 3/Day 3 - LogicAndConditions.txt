@@ -1,0 +1,73 @@
+Day 3: Mini Mission 1
+🧪 Concept: Arithmetic Operators Refresher
+Operator	Purpose	Example	Result
++	Addition	2 + 3	5
+-	Subtraction	5 - 2	3
+*	Multiplication	4 * 3	12
+/	Division (float)	10 / 4	2.5
+//	Floor Division (int)	10 // 4	2
+%	Modulo (remainder)	10 % 4	2
+**	Exponentiation (power)	2 ** 3	8
+
+🔹 Use if-elif-else to handle choices cleanly.
+🔹 Validate user inputs when needed, especially with division.
+
+Extra Tip:
+Division by zero is one of the most common real-world bugs, and handling it with simple logic like if num2 != 0 is the perfect beginner approach.
+You’ll learn try-except later to catch such runtime errors more cleanly.
+
+
+
+math Module Basics
+
+Python’s math module provides helpful mathematical functions.
+
+To use it, you import it at the top of your code:
+
+python
+Copy
+Edit
+import math
+Here are some useful functions you'll use:
+
+Function	Purpose	Example (x = 7.3)
+math.sqrt(x)	Square root	math.sqrt(9) → 3.0
+math.pow(x, y)	x raised to the power y	math.pow(2, 3) → 8.0
+math.floor(x)	Largest integer ≤ x	math.floor(7.3) → 7
+math.ceil(x)	Smallest integer ≥ x	math.ceil(7.3) → 8
+abs(x)	Absolute value (no negatives)	abs(-5) → 5
+
+
+Day 3 – Mini Mission 2: Advanced Math Magic
+Concept	What You Applied
+math module	sqrt, pow, floor, ceil
+Built-in function	abs()
+Input type	Used float for decimal support
+Output styling	Clear, precise results
+
+
+✅ Chained Comparisons:
+Python allows clean expressions like:
+
+if 13 <= age <= 19:
+
+✅ Input Validation (Optional):
+You can add a check like:
+
+if age < 0:
+    print("Invalid age.")
+
+
+strip() Function – What It Does:
+
+The strip() method in Python removes any leading and trailing whitespace from a string.
+
+✅ That includes:
+
+Spaces (" ")
+Tabs (\t)
+Newlines (\n)
+
+
+
+

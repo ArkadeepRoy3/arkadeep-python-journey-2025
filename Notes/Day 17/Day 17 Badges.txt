@@ -1,0 +1,14 @@
+🏅 Badge Log – 7 August 2025
+MM1 — Modular Greeter — Modular Initiate
+Successfully built and ran your first modular Python utility with clean file separation and import logic.
+
+🏅 Badge Log – 8 Aug 2025
+MM17_2 – Modular Math CLI – Module Maker – For successfully creating, importing, and integrating your first custom Python module with clean CLI logic and safe operations.
+
+🏅 Badge Log – 8 Aug 2025
+MM3 – Logging Calculator – Chrono Coder – For building a modular calculator that timestamps and logs every calculation like a pro data keeper.
+
+🏅 Log Librarian — 11 Aug 2025
+For building a clean, beginner-friendly CLI to browse & filter calculator logs.
+
+

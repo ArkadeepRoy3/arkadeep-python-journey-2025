@@ -1,0 +1,140 @@
+📝 Day 5 + 6 Notes: Strings + Loops + Functions (Updated July 7, 2025)
+🔤 String Essentials:
+Strings are sequences of characters: "Hello" is "H" + "e" + "l" + "l" + "o"
+
+Common methods:
+
+.lower(), .upper(), .strip()
+
+.replace("a", "b"), .split(), .join(list)
+
+Indexing: my_string[0], Slicing: my_string[::-1]
+
+String formatting: f"Hello, {name}!"
+
+🔁 Loops:
+For Loops
+
+
+for letter in "hello":
+    print(letter)
+While Loops
+
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+🧪 Loop with Conditionals
+
+for char in sentence:
+    if char in "aeiou":
+        vowel_count += 1
+🔁 Loop Control:
+break: exits the loop
+
+continue: skips to next iteration
+
+🔧 String Cleaning Example:
+
+import string
+s = input("Enter: ").lower().translate(str.maketrans('', '', string.punctuation))
+
+
+
+🔹 What is a Function?
+A function is a block of reusable code that performs a specific task. It helps make your code:
+
+Organized
+
+Modular
+
+Reusable
+
+🔹 Types of Functions
+Type	Example	Description
+Built-in Functions	print(), len(), input()	Provided by Python
+User-defined	def greet():	Created by the user
+
+🔹 Function Syntax
+
+def function_name(parameters):
+    # code block
+    return value
+📌 def – Keyword to define a function
+📌 function_name – The name you choose
+📌 parameters – Inputs to the function
+📌 return – Optional; sends back a result
+
+🔹 Function Example
+
+def greet(name):
+    return f"Hello, {name}!"
+Usage:
+
+
+message = greet("Arka")
+print(message)  # Output: Hello, Arka!
+🔹 Parameters vs Arguments
+Parameters → Variables listed in the function definition
+→ def greet(name): → name is a parameter
+
+Arguments → Actual values passed to the function when calling it
+→ greet("Arka") → "Arka" is an argument
+
+🔹 Return vs Print
+Concept	return	print()
+Purpose	Gives output to the caller	Displays to screen
+Use Case	Used in logic/assignment	Used in debugging/output
+Output	Value (can be stored/used again)	Just visible on screen
+
+✅ Use return when you want to use the result later
+✅ Use print() when you want to display something to the user
+
+🔹 Default Parameters
+
+def greet(name="Guest"):
+    return f"Welcome, {name}!"
+
+print(greet())        # Welcome, Guest!
+print(greet("Arka"))  # Welcome, Arka!
+🔹 Positional vs Keyword Arguments
+
+def profile(name, age):
+    return f"{name} is {age} years old."
+
+print(profile("Arka", 24))                      # Positional
+print(profile(age=24, name="Arka"))             # Keyword
+🔹 Nested Function Calls
+You can call functions inside other functions:
+
+
+def double(x):
+    return x * 2
+
+def square_and_double(x):
+    return double(x ** 2)
+
+print(square_and_double(3))  # 18
+🔹 Function Composition (Chaining)
+
+def clean_text(text):
+    return text.strip().lower()
+
+def word_count(text):
+    clean = clean_text(text)
+    return len(clean.split())
+🧠 Function Best Practices
+✅ Use meaningful function names (calculate_area, is_palindrome)
+✅ Keep functions short and focused
+✅ Avoid unnecessary print() inside logic functions
+✅ Use return to send data back
+✅ Quick Revision
+
+Concept	Example/Rule
+Define a function	def func():
+Call a function	func()
+Return a value	return something
+Input to function	Parameters (e.g., def func(x):)
+Use result later	result = func()
+Display output	print(func())

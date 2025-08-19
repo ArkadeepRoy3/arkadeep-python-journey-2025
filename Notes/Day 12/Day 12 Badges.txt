@@ -1,0 +1,25 @@
+Mini Mission 1: Inventory Stock Manager
+File: inventory_stock.py
+Badge Earned: 📦 Stock Commander (Day 12)
+
+
+🎉 Mini Mission 2 Complete!
+🧮 Mini Mission 2: Dict Transformer — ✅ Completed
+Great job transforming and printing dictionary values dynamically based on user input.
+
+
+Mini Mission 3 Completed
+📅 25 July 2025
+🏆 Mastered get(), setdefault(), update(), and pop() with clean modular code!
+
+🏅 🧮 Pattern Master
+Earned: July 19, 2025
+Awarded for: Completing Mini Mission 8 – Pattern Menu System (Day 9)
+
+🏅 🏅 Tuple Titan
+Earned: July 20, 2025
+Awarded for: Completing all 6 Tuple Mini Missions (Day 10)
+
+🏅 📘 Dictionary Dynamo
+Earned: July 26, 2025
+Awarded for: Completing all Dictionary Mini Missions (Day 12)

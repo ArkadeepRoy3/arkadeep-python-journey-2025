@@ -1,0 +1,70 @@
+📘 Day 16 Notes
+🧠 Part 1: Advanced File Modes
+Mode	Description
+r	Read-only (error if file doesn't exist)
+w	Write-only (creates new or truncates existing)
+a	Append-only (writes to end of file, creates if needed)
+r+	Read + Write (does not truncate)
+w+	Write + Read (truncates existing file or creates new)
+a+	Append + Read (file pointer starts at end)
+x	Create only (errors if file already exists)
+
+🔍 Example
+
+with open('data.txt', 'r+') as f:
+    content = f.read()
+    f.write("New content")  # Writes *after* read finishes
+📍 Part 2: File Pointer Tools
+Method	Description
+.tell()	Shows current byte position of pointer
+.seek(pos)	Moves pointer to byte position pos (starting from 0)
+
+📌 Example
+
+with open('demo.txt', 'r') as f:
+    print(f.tell())       # → 0
+    f.read(5)             # → Reads 5 characters
+    print(f.tell())       # → 5
+    f.seek(0)             # → Back to start
+🚨 Part 3: Exception Handling Logic
+✅ Basic Structure:
+
+try:
+    # risky code
+except SomeError:
+    # handle it
+else:
+    # runs if no exception
+finally:
+    # always runs
+✅ Catching Multiple Errors
+
+try:
+    # risky
+except (ValueError, TypeError) as e:
+    print("Caught error:", e)
+✅ Raising Your Own Errors
+
+if not filename.endswith(".txt"):
+    raise ValueError("Only .txt files allowed")
+🔗 Part 4: Exception Chaining (Advanced)
+
+try:
+    raise ValueError("Invalid")
+except ValueError as e:
+    raise RuntimeError("Something failed") from e
+🛠️ Use Case Patterns
+🔹 Append with Timestamp
+
+import time
+with open("log.txt", "a") as log:
+    log.write(f"{time.ctime()}: User logged in\n")
+🔹 Safe Write with Cleanup
+
+try:
+    with open("notes.txt", "w") as f:
+        f.write("Test")
+except IOError:
+    print("Failed to write")
+finally:
+    print("Write attempt finished")

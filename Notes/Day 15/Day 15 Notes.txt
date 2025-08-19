@@ -1,0 +1,78 @@
+📘 Day 15 Notes: File Handling in Python
+🔑 1. open() Function
+python
+Copy
+Edit
+file = open("example.txt", "r")  # Opens a file in read mode
+📂 Common Modes:
+Mode	Meaning
+'r'	Read (default), file must exist
+'w'	Write, creates new file or overwrites
+'a'	Append, adds to end, creates if not exist
+'r+'	Read and Write
+'w+'	Write and Read (clears existing)
+
+📖 2. Reading Files
+
+# Read entire file content
+file = open("sample.txt", "r")
+content = file.read()
+print(content)
+file.close()
+
+# Read one line at a time
+file = open("sample.txt", "r")
+line1 = file.readline()
+line2 = file.readline()
+file.close()
+
+# Read all lines into a list
+file = open("sample.txt", "r")
+lines = file.readlines()   # ['line1\n', 'line2\n', ...]
+file.close()
+✍️ 3. Writing to Files
+
+# Overwrites file or creates if not exist
+file = open("output.txt", "w")
+file.write("Hello, file!\n")
+file.write("Second line.\n")
+file.close()
+
+# Append to existing file
+file = open("output.txt", "a")
+file.write("Appended line.\n")
+file.close()
+✅ 4. Using with Statement (Best Practice)
+
+with open("sample.txt", "r") as file:
+    data = file.read()
+    print(data)
+# File is auto-closed here
+
+with open("new.txt", "w") as f:
+    f.write("First line\nSecond line")
+⚠️ 5. Basic Error Handling
+
+try:
+    with open("missing.txt", "r") as f:
+        print(f.read())
+except FileNotFoundError:
+    print("The file does not exist.")
+except PermissionError:
+    print("Permission denied.")
+🔍 6. Extra Utilities (used in Mini Missions)
+Count Lines:
+
+with open("data.txt", "r") as f:
+    print(len(f.readlines()))
+Count Words:
+
+with open("data.txt", "r") as f:
+    words = f.read().split()
+    print(len(words))
+📌 Good Practices:
+Use with open(...) to avoid forgetting close()
+
+Always specify file mode
+
+Handle FileNotFoundError and PermissionError if unsure

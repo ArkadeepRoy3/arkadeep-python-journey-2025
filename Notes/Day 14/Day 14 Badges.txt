@@ -1,0 +1,17 @@
+Mini Mission 1: Magic Mirror
+✅ Completed on 29 July 2025
+🏆 Skills Used: Reversal, .upper(), .lower(), .title(), slicing
+
+✅ Mini Mission 2: Word Analyzer — Completed!
+🎉 You’ve successfully implemented real-world string analysis.
+📅 Completed on: 29 July 2025
+
+🏁 Mini Mission 3: Login Validator — Completed!
+📅 Date: 29 July 2025
+📌 Badge Progress: 3 out of 6
+
+🧙‍♂️🏅 Badge Unlocked: String Sorcerer
+You’ve earned the official Day 14 badge!
+
+📅 Issued on: 29 July 2025
+🔓 Skill Unlocked: Pro-level string mutation, input sanitization, and transformation mastery.

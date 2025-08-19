@@ -1,0 +1,41 @@
+🗓️ Day 11 – Dictionary Fundamentals
+📁 Folder Name: day11_dictionaries
+
+✅ Core Concepts (Covered in Notes)
+What is a dictionary?
+
+Creating and accessing key-value pairs
+
+Adding, modifying, and deleting entries
+
+Using get(), pop(), del, update()
+
+Looping with .items(), .keys(), .values()
+
+Membership testing (key in dict)
+
+Dictionary comprehension (bonus)
+
+🟩 Mini Missions
+Each mission should be stored as a separate .py file inside the folder day11_dictionaries.
+
+#	Title				Filename
+1	Contact Book (Add + Print)	contact_book.py
+2	Frequency Counter		frequency_counter.py
+3	Dictionary Key Finder		key_checker.py
+4	Dictionary Updater		dict_updater.py
+5	Value Summarizer		value_summarizer.py
+6	Dictionary Merge Tool		merge_dicts.py
+
+🧠 Mini Project 2: Student Score Manager
+📁 File: student_score_manager.py
+
+Create a simple CLI system to:
+
+Add students and their scores
+
+Update scores
+
+Display all students and scores
+
+Bonus: Show student with highest score

@@ -1,0 +1,116 @@
+🧠 Python Day 4 Notes – Loops & Lists Mastery (4th July 2025)
+🔁 while Loop
+Repeats a block of code as long as a condition is True.
+
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+🔁 for Loop
+Used to iterate over a sequence like a list, string, or range().
+
+Example:
+
+
+for i in range(1, 6):
+    print(i)
+🔢 range() Function
+range(stop)
+
+range(start, stop)
+
+range(start, stop, step)
+
+
+range(5)         # 0 to 4
+range(1, 6)      # 1 to 5
+range(2, 10, 2)  # 2, 4, 6, 8
+🛑 break and continue
+break: Exits the loop.
+
+continue: Skips to next iteration.
+
+
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+🔚 else with Loops
+Runs when the loop completes normally (not by break).
+
+
+for i in range(3):
+    print(i)
+else:
+    print("Loop completed")
+📦 Lists in Python
+Used to store multiple items in a single variable.
+
+Lists are mutable (can change after creation).
+
+
+fruits = ['apple', 'banana', 'mango']
+✅ List Operations:
+
+fruits.append('orange')     # Add item
+fruits[1] = 'grape'         # Modify item
+del fruits[0]               # Remove by index
+len(fruits)                 # Count
+sum([1,2,3])                # Sum of list
+max([10, 20, 5])            # Max
+min([10, 20, 5])            # Min
+🔁 Looping Through a List
+
+fruits = ['apple', 'banana', 'mango']
+for fruit in fruits:
+    print(fruit)
+Or with range():
+
+
+for i in range(len(fruits)):
+    print(fruits[i])
+🔍 Searching in a List
+
+search_item = input("Search: ").lower()
+found = False
+
+for item in fruits:
+    if item.lower() == search_item:
+        print("Found!")
+        found = True
+        break
+
+if not found:
+    print("Not found.")
+✂️ Slicing a List
+
+fruits = ['a', 'b', 'c', 'd', 'e']
+print(fruits[1:4])  # Output: ['b', 'c', 'd']
+🧪 Practice Missions Recap (Day 4)
+#	Mission Title	Key Concepts
+1	Count Till Blast	while loop, decrement
+2	Table Generator	for + range
+3	Sum of Range	Loop or Formula
+4	Smart Number Filter	Loop + continue
+5	Loop Password Lock	while + break
+6	Topper Finder v2.1	Lists + max finder
+7	Even-Odd Sorter	List split via condition
+8	Word Collector	Loop + input + list
+9	List Analyzer	len(), sum(), max()
+10	List Searcher	Loop + if condition
+11	Evens Only Filter	if + list append
+12	Number Splitter	String to int list
+13	Word Length Counter	len(word) for each
+
+🎯 Day 4 Mastery Achieved
+✅ You now confidently use loops and lists.
+
+✅ You debugged, wrote clean code, and did bonus missions.
+
+✅ You’re ready for functions and string mastery on Day 5.

@@ -1,0 +1,20 @@
+🏅 Badge Earned: Tuple Splitter (Day 10)
+✔️ Parsed input to tuple
+✔️ Separated evens & odds
+📂 tuple_even_odd.py | 📆 18 Jul 2025
+
+🏅 Badge Earned: Tuple Slicer (Day 10)
+✔️ Extracted a slice from a tuple using indices
+📂 tuple_slicer.py | 📆 18 Jul 2025
+
+🏅 Badge Earned: Tuple Membership Checker (Day 10)
+✔️ Checked number existence in tuple
+✔️ Printed index if found
+📂 tuple_membership.py | 📆 18 Jul 2025
+
+🏅 Badge Earned:
+🌀 Tuple Twister (Day 10, Mission 4)
+For reversing a tuple using elegant slicing.
+
+🏅 Tuple Titan — (Day 10: 18th July 2025)
+Awarded for mastering tuple operations: slicing, membership, pairing, reversing, swapping, and combining!

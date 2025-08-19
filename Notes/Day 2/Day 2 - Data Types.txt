@@ -1,0 +1,49 @@
+In Python, everything is an object — and every object has a data type.
+Understanding data types will help you:
+
+Avoid hidden bugs 💣
+
+Write cleaner logic ✅
+
+Master Python’s magic tricks 🎩🐍
+
+
+🧾 Python Core Data Types:
+
+int – Whole numbers
+→ Examples: 5, -3, 0
+
+float – Decimal (floating point) numbers
+→ Examples: 3.14, -0.001, 0.0
+
+str – String (text inside quotes)
+→ Examples: "hello", 'Python', "123"
+
+bool – Boolean (True/False)
+→ Only two values: True, False
+
+
+✅ Day 2 – Warm-Up Summary
+python
+Copy
+Edit
+a = 7           → <class 'int'>     ✅ Whole number → Integer  
+b = 2.5         → <class 'float'>   ✅ Decimal value → Float  
+c = "15"        → <class 'str'>     ✅ Quoted → String (even though it *looks* like a number)  
+d = True        → <class 'bool'>    ✅ True or False → Boolean  
+
+
+📌 Everything inside quotes is a string, even if it’s "123".
+🔁 You can convert between types using int(), float(), str() etc.
+🚫 Converting from string to int only works if the string is numeric. (int("15") is fine, but int("hello") gives error)
+
+
+Day 2 (Grading System Logic)
+📌 Range Checking Format:
+Instead of marks >= 80 and marks <= 89, you can use 80 <= marks <= 89 — cleaner and more Pythonic.
+
+📌 Input Validation First:
+Always validate the input before processing logic to avoid bugs and unexpected behavior.
+
+📌 Nested Conditionals:
+When validation is done, use nested blocks to keep the logic grouped. It improves clarity.

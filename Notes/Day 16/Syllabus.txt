@@ -1,0 +1,56 @@
+✅ 🔒 Day 16: Advanced File Handling + Exception Logic
+🎯 Goals
+Master file modes: r+, w+, a+, x
+
+Understand file pointer control: seek(), tell()
+
+Learn structured exception handling: try, except, else, finally
+
+Practice real-world file I/O operations (read/write/update/backup)
+
+Build confidence in safe, robust coding
+
+📘 Concepts Covered
+open() with advanced modes (r+, w+, a+, x)
+
+File pointer control: seek(), tell(), .read(), .write()
+
+Exception handling:
+
+Basic try-except
+
+else block (on success)
+
+finally block (cleanup/logs)
+
+Writing to files safely
+
+Backups, cloning, and overwrites
+
+Filename validation and error-proofing
+
+🧪 Practice Tasks (All Completed)
+Pointer Test: Read first 10 chars → reset pointer → read full file
+
+Write vs Append: Observe overwrite vs append modes
+
+Try + Else + Finally: Handle missing file gracefully
+
+🔨 Mini Missions (Finalized)
+ID	Title	Description
+MM1	Backup Buddy	Ask for filename → create a backup with try/except/else/finally
+MM2	Cleaner & Overwriter	Sanitize input file (remove punctuation, replace keywords), write to new file
+MM3	Read or Write Detector	Open file in r+, w+, or a+ mode and show behavior of read/write
+
+✔️ These are fully aligned with Day 15’s File CLI and lead directly into Day 17’s Modular Thinking + Error Debugging.
+
+🏁 Outcome
+After Day 16, you'll be able to:
+
+Confidently open, modify, and save files with precise control
+
+Handle common file I/O failures with grace
+
+Write real-world file tools (logs, backups, sanitizers, readers)
+
+Prepare for modular coding and exception tracing in bigger apps

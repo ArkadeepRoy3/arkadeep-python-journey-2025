@@ -1,0 +1,56 @@
+📘 Day 12 : Dictionary 2
+Today you'll go beyond basic key-value usage and dive into:
+
+✅ Concepts to Master:
+Nested Dictionaries
+
+Using .get() vs direct access
+
+Dynamic Dictionary Building from Input
+
+Inverting a Dictionary (values as keys)
+
+Aggregating and Grouping with Dictionaries
+
+Mini Project Preparation (Data Organizer)
+
+🧠 Day 12 Notes / Concepts
+1. Nested Dictionary
+
+students = {
+    "Alice": {"math": 90, "science": 85},
+    "Bob": {"math": 75, "science": 80}
+}
+print(students["Alice"]["math"])  # 90
+
+2. Using .get()
+
+print(my_dict.get("key"))        # Safe access
+print(my_dict["key"])            # Raises KeyError if key missing
+
+3. Dynamic Dictionary Building
+
+data = {}
+while True:
+    name = input("Name: ")
+    marks = int(input("Marks: "))
+    data[name] = marks
+    if input("Continue? (y/n): ") == "n":
+        break
+
+4. Inverting a Dictionary
+
+original = {"a": 1, "b": 2, "c": 1}
+inverted = {}
+for k, v in original.items():
+    inverted.setdefault(v, []).append(k)
+print(inverted)  # {1: ['a', 'c'], 2: ['b']}
+
+5. Aggregation Example
+Group values under common categories:
+
+data = {"apple": "fruit", "spinach": "veg", "banana": "fruit"}
+grouped = {}
+for item, group in data.items():
+    grouped.setdefault(group, []).append(item)
+print(grouped)  # {'fruit': ['apple', 'banana'], 'veg': ['spinach']}

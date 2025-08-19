@@ -1,0 +1,19 @@
+🏅 Badge Log – 6th August 2025
+🔹 PT16A, File I/O Flow, ReadSeeker – Mastered read(), seek() pointer control, and progressive file access logic
+🔹 PT16B, Write vs Append, StreamStylist – Clean handling of 'w' vs 'a' modes with correct overwrite/append behavior
+🔹 PT16C, try-else-finally, SafeHands – Applied structured exception blocks with clarity and purpose
+
+🏅 Badge Log – 6th August 2025
+Mini Mission 1: Backup Tool – 🏅 Safe Keeper: Successfully created a file backup with proper validation and structured exception handling.
+
+🏅 Badge Log – 6th August 2025
+MM2. Clean Overwriter — Sanitization Sage
+Removed all empty/whitespace lines from a file safely. Used filtering, rewriting, and line count tracking.
+
+🏅 Badge Log – 6 August 2025
+MM3, File Cloner, Backup Ninja – Successfully wrote a robust utility that copies data from one file to another with overwrite protection and confirmation logic.
+
+🏅 Badge Log – 6 August 2025
+MM4 – Safe Writer – 🛡️ Write Guard
+Successfully implemented structured file writing using try/except/else/finally, handling IO errors gracefully.
+

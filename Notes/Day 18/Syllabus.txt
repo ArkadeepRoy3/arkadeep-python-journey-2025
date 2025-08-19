@@ -1,0 +1,25 @@
+📅 Day 18 – Lambda Functions & List Comprehensions
+Theme: Writing cleaner, more concise Python using functional tools and advanced iteration techniques.
+
+Syllabus
+Lambda Functions – Syntax, scope, and when to use.
+
+Functional Tools – map(), filter(), reduce() (with lambdas).
+
+List Comprehensions – Syntax, single & nested loops.
+
+Conditional Comprehensions – if & if-else inside comprehensions.
+
+Set & Dict Comprehensions – Syntax & common patterns.
+
+Combination – Using lambda + comprehensions in practical problems.
+
+Mini Missions
+
+MM1 – Quick Math Ops → Write lambdas for add, subtract, multiply, divide.
+MM2 – Even Filter → Filter even numbers using lambda + filter().
+MM3 – Square Mapper → Square a list using lambda + map().
+MM4 – Word Length Dict → Dict comprehension mapping words to lengths.
+MM5 – Nested Comprehension Table → Create a multiplication table using nested list comprehension.
+MM6 – Conditional Comprehension → Replace all odd numbers with "Odd" in a list comprehension.
+MM7 – Reduce Magic → Use reduce() to compute factorial of a number.

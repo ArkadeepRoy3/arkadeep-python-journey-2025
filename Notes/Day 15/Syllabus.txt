@@ -1,0 +1,99 @@
+✅ Day 15 Roadmap: "The File Whisperer"
+Theme: File Handling (Text files)
+Focus: Reading, writing, modes, line handling, file loops, and basic persistence
+Estimated Time: 3–4 hours (spread as needed)
+Skill Tags: open(), read(), write(), with, modes, file.readlines()
+
+📁 Folder Name
+day15_file_whisperer
+
+🧠 Syllabus for Day 15:
+🔹 1. File Basics
+What is a file? Types (Text vs Binary – today we focus on text)
+
+Why file handling matters in real apps (logs, data storage, config, etc.)
+
+open() function syntax and usage
+
+r, w, a, x, r+, w+, a+ → What each mode means
+
+Relative vs Absolute paths
+
+🔹 2. Reading from Files
+read(), readline(), readlines() — differences and when to use each
+
+Looping through a file
+
+Reading line by line and processing content
+
+🔹 3. Writing to Files
+write() and writelines() — how they work
+
+Overwriting vs Appending (w vs a)
+
+Writing data from lists/dictionaries
+
+🔹 4. The with Statement
+Why with open(...) as f: is the gold standard
+
+Automatic file closure, exception safety
+
+🔹 5. Real Use Cases
+Storing user input to a file
+
+Reading logs
+
+Generating a report from a list/dictionary
+
+🎯 Mini Missions (After Concepts)
+
+🧭 Day 15: Mini Missions (Fixed List)
+📁 Mini Mission 1: File Line Counter
+Read a file and count how many lines it has.
+
+Output: "Total lines: X"
+
+📄 Mini Mission 2: Word and Character Stats
+Read a file and display:
+
+Number of words
+
+Number of characters (excluding newline)
+
+Output: "Words: X, Characters: Y"
+
+🔎 Mini Mission 3: Keyword Finder
+Ask user for a keyword
+
+Read a file line-by-line and print only those lines that contain the keyword (case-insensitive)
+
+🛠️ Mini Mission 4: Sanitize File Contents
+Open a file and:
+
+Strip leading/trailing spaces from each line
+
+Replace any occurrence of "Python" with "PyWorld"
+
+Save the cleaned version to a new file
+
+📜 Mini Mission 5: Simple File CLI Tool
+Create a command-line tool that supports:
+
+read <filename> → prints content
+
+lines <filename> → prints number of lines
+
+append <filename> → lets user type a new line and adds to the file
+
+exit → quits the program
+
+🏁 End Goal Today
+By the end of Day 15, you should be able to:
+
+Safely read and write files in multiple ways
+
+Persist and retrieve user-generated data
+
+Perform line-by-line processing
+
+Build CLI-style apps using file I/O

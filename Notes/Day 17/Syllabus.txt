@@ -1,0 +1,45 @@
+✅ Day 17 – Modular CLI & Import Mechanics
+
+Modular CLI Structure
+
+Creating CLI-based programs split across multiple Python files (modules).
+
+Organizing reusable logic into separate files.
+
+Using main.py to control execution flow.
+
+Import Basics & Module Reuse
+
+Standard import usage.
+
+Importing specific functions/classes (from module import func).
+
+Python’s module loading behavior.
+
+Mutable vs Immutable Behavior (MM5: Pointer Explorer)
+
+Demonstrating shared references for mutable types (list, dict).
+
+Showing immutability for types like int, str, tuple.
+
+Dynamic Module Importing (MM6: Safe Import Tester)
+
+Using __import__() to load modules at runtime.
+
+Handling ModuleNotFoundError & ImportError.
+
+Validating input before attempting imports.
+
+🗂 Day 17 Mini Missions
+
+MM1 – Modular CLI Skeleton → Basic multi-file CLI structure.
+
+MM2 – Modular CLI Expansion → Adding more commands & imports.
+
+MM3 – Modular CLI with User Input → Interactive menu handling across modules.
+
+MM4 – CLI with Error Handling → Safe input & graceful failure messages.
+
+MM5 – Pointer Explorer → Mutable vs immutable reference demonstration.
+
+MM6 – Safe Import Tester → Dynamically import modules with error handling.

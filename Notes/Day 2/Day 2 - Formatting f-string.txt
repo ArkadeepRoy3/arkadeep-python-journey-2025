@@ -1,0 +1,9 @@
+Formatting with f-strings:
+
+
+f"{value:<10}"  # Left aligned
+f"{value:>10}"  # Right aligned
+f"{value:^10}"  # Center aligned
+f"{number:.2f}" # Two decimal places
+f"{number:,.2f}" # Comma separator + 2 decimals
+f"{number:e}"   # Scientific notation

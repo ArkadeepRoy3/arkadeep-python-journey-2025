@@ -1,0 +1,50 @@
+🧠 Core Concept 1: Lists in Python
+Let’s begin with the basics 👇
+
+✅ What is a List?
+A list is a collection of items in a single variable. Think of it as a container 📦 that holds multiple things!
+
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits)  # ['apple', 'banana', 'cherry']
+
+✅ Creating a List
+
+numbers = [1, 2, 3, 4, 5]
+empty_list = []
+mixed_list = [1, "hello", 3.5, True]
+
+✅ Accessing Elements (Indexing & Slicing)
+Python lists use 0-based indexing:
+
+print(numbers[0])     # 1
+print(numbers[-1])    # 5 (last element)
+print(numbers[1:4])   # [2, 3, 4] — slicing (start to end-1)
+
+✅ Updating Elements
+
+numbers[0] = 100
+print(numbers)  # [100, 2, 3, 4, 5]
+
+✅ List Operations & Methods
+
+Method	Purpose	Example
+append()	Add item at the end	fruits.append("mango")
+insert(i, x)	Add item at position i	fruits.insert(1, "kiwi")
+remove(x)	Remove first match	fruits.remove("banana")
+pop(i)	Remove item at index i (default last)	fruits.pop()
+sort()	Sort list (in place)	fruits.sort()
+reverse()	Reverse list order	fruits.reverse()
+len()	Length of the list	len(fruits)
+in	Check membership	"apple" in fruits → True
+
+✅ Looping Through Lists
+
+for fruit in fruits:
+    print(fruit)
+
+✅ (Optional) Intro to List Comprehension
+
+Just a glimpse of what’s possible:
+
+squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]

@@ -1,0 +1,63 @@
+📅 Day 10 Syllabus — “String Slicer Pro”
+✅ Core Learning Goals:
+Master string slicing ([:]) and indexing
+
+Practice find(), replace(), and string methods
+
+Format strings cleanly with f"" and .format()
+
+Use modular functions with string return values
+
+🟨 Mini Missions
+🟡 Mini Mission 1: First and Last Grabber
+📄 first_last_grabber.py
+
+Input: A string from the user
+
+Output: First and last character of the string
+
+Stretch: Add a condition for empty input
+
+🟡 Mini Mission 2: String Formatter
+📄 format_fullname.py
+
+Input: First name and last name
+
+Output: “Hello, <Last>, <First>!” using .format() and f""
+
+Stretch: Handle extra spaces or improper input casing
+
+🟡 Mini Mission 3: Word Replacer
+📄 word_replacer.py
+
+Input: A string and a word to replace
+
+Output: Replace that word with "Python"
+
+Stretch: Make it case-insensitive
+
+🟡 Mini Mission 4: Slice the Middle
+📄 middle_slicer.py
+
+Input: A word
+
+Output: The middle character (if odd length) or middle two (if even)
+
+Stretch: Turn this into a function get_middle(s)
+
+🔁 Optional Bonus
+🧩 Mini Mission 5: Sentence Censor
+📄 censor_words.py
+
+Replace any “bad” word from a user sentence with ****
+
+Stretch: Use a list of bad words and loop through
+
+🧠 Practice Quiz (End of Day 10)
+Short 3-question recap covering:
+
+String slicing
+
+f"" formatting
+
+String replacement logic

@@ -1,0 +1,23 @@
+🚀 Day 13: Set Mastery — Roadmap
+🧩 What You’ll Learn
+What sets are and why they're useful
+
+Set operations: union, intersection, difference
+
+Practical use cases (e.g. duplicates removal, membership tests)
+
+Built-in set methods and functions
+
+Set logic in real-world scenarios
+
+
+| 🏁 Mission No. | Title                   | Status | Badge Earned          |
+| -------------- | ----------------------- | ------ | --------------------- |
+| 1              | Set Explorer            | ✅ Done | 🧺 Set Explorer       |
+| 2              | Duplicate Debugger      | ✅ Done | 🥈 Duplicate Debugger |
+| 3              | Common Interests Finder | ✅ Done | 🎯 Common Ground      |
+| 4              | Unique Collector        | ✅ Done | 📦 Uniqueness Master  |
+| 5              | Workshop Analyzer       | ✅ Done | 🧠 Set Insights       |
+| 6              | Set Stats Generator     | ✅ Done | 🧠 Set Analyst        |
+
+

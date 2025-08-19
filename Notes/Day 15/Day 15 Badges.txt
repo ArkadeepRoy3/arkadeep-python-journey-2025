@@ -1,0 +1,19 @@
+🏅 Badge Log – 4th August 2025
+
+🔹 Mini Mission 1: File Line Counter
+Badge: 📁 File Explorer
+Description: Successfully counted lines from a user-input file.
+
+🔹 Mini Mission 2: Word and Character Stats
+Badge: ✍️ Text Statistician
+Description: Accurately computed words and characters from file content.
+
+🔎 Mini Mission 3: Keyword Finder → Keyword Sleuth – Built a robust CLI tool to find keyword-based matches in a file, handling punctuation and case-insensitive exact word search.
+
+🛠️ Mini Mission 4: Sanitize File Contents – Clean Coder
+Replaced specific words and stripped lines before saving to a new file. Demonstrated clear file I/O and transformation skills.
+
+🏅 Badge Log – 5th August 2025
+
+📜 Mini Mission 5: Simple File CLI Tool → Badge Name: Command Line Captain
+Built a multi-functional command-line tool with file reading, line counting, appending, and graceful exit handling.

@@ -1,0 +1,20 @@
+🧾 Day 10 Notes Recap – Tuples & Immutable Sequences
+Core Concepts Covered:
+
+Tuples: Immutable ordered sequences
+
+Tuple creation: (), tuple(), single-element tuples: (x,)
+
+Tuple indexing, slicing
+
+Tuple membership checks: x in my_tuple
+
+Tuple concatenation: tuple1 + tuple2
+
+Iteration: for x in my_tuple
+
+Tuple conversion: list() and tuple() for mutability swap
+
+Nesting & unpacking
+
+Pythonic operations: slicing, .index(), .count(), zip()

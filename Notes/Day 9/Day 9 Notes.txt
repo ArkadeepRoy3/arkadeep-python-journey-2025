@@ -1,0 +1,48 @@
+🧠 Day 9 Summary – Patterns, Inputs, and Mini Project Expansion
+📅 Date Covered: 15–18 July 2025
+🎯 Theme: Custom Patterns, Menu Systems, and Practice with Functions
+📦 Files Covered:
+
+sq_even.py
+
+star_pattern.py
+
+unique_sorter.py
+
+pattern_menu_with_functions.py
+
+✅ Key Concepts Reviewed
+🔹 Pattern Printing
+Loops inside loops to print stars and numbers
+
+Triangle patterns (normal and reversed)
+
+Block-style number patterns
+
+🔹 input() Processing
+Reading comma-separated values
+
+Using .split(",") and .strip() to clean and convert strings to integers
+
+Validating and parsing user input
+
+🔹 List Techniques
+Building lists from user input
+
+Removing duplicates using conditionals
+
+Sorting numeric lists
+
+🔹 Functions & Menus
+Reusable functions for each pattern
+
+Function definitions: def print_triangle(n):, etc.
+
+Menu system using if-elif-else structure
+
+✨ Mini Missions Completed
+Mission	Title	File	Status	Badge
+1	Square of Evens	sq_even.py	✅	🔢 Even Squarer
+2	Star Pattern	star_pattern.py	✅	⭐ Pattern Maker
+3	Unique Sorter	unique_sorter.py	✅	🧮 List Organizer
+4	Pattern Menu System	pattern_menu_with_functions.py	✅	🧩 Pattern Master (Day 9)

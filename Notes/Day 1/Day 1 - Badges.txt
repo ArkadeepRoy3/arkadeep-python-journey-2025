@@ -1,0 +1,30 @@
+🏅 1. Hello Python Badge
+📛 For writing your first Python program with input and print.
+
+✅ Took input from user
+✅ Printed greeting using the input
+
+
+🏅 2. Number Cruncher Badge
+📛 For writing a program that takes two numbers and performs all basic operations.
+
+✅ Added, subtracted, multiplied, divided
+✅ Used int() conversion
+✅ Used f-strings for neat output
+
+
+🏅 3. String Wizard Badge
+📛 For manipulating a sentence using Python string methods.
+
+✅ Used .upper(), .lower(), .strip(), .replace()
+✅ Found string length and reversed it
+✅ Indexed first and last characters
+
+
+🏅 4. Calculator Crafter Badge
+📛 For building a basic calculator using if-elif-else.
+
+✅ Took numbers and operation as input
+✅ Used conditionals to perform the correct math
+✅ Handled invalid input with an else
+

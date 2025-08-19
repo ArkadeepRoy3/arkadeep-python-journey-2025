@@ -1,0 +1,81 @@
+Sentence Manipulation in Python
+
+📘 1. .capitalize()
+→ Only capitalizes the first character of the string.
+👉 "arka is here." → "Arka is here."
+
+📘 2. .title()
+→ Capitalizes the first letter of each word.
+👉 "arka is learning python" → "Arka Is Learning Python"
+
+📘 3. .replace(old, new)
+→ Replaces all instances of old with new.
+👉 "Hi, Arka" → .replace(",", ";") → "Hi; Arka"
+
+📘 4. .split()
+→ Breaks sentence into a list of words, usually by space.
+👉 "Hi Arka" → ["Hi", "Arka"]
+
+📘 5. .endswith(char) or [-1]
+→ Check if a string ends with something.
+
+Both of these work:
+
+sentence.endswith(".")
+sentence[-1] == "."
+
+
+
+Day 2: Final clean_sentence Logic
+
+
+import string
+
+clean_sentence = sentence.translate(str.maketrans('', '', string.punctuation))
+words = clean_sentence.split()
+print(f"Word Count: {len(words)}")
+
+
+✅ What This Does:
+
+string.punctuation
+A built-in string in Python containing all punctuation characters, like:
+
+
+!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+
+str.maketrans('', '', string.punctuation)
+Creates a translation table that maps each punctuation character to None (i.e., removes it).
+
+str.maketrans(x, y, z) – What do these mean?
+
+str.maketrans(x, y, z)
+Parameter	Meaning
+x	Characters to replace
+y	Characters to replace them with
+z	Characters to delete
+
+sentence.translate(...)
+Applies that translation table to remove all punctuation from the sentence efficiently.
+
+.split()
+Then splits the cleaned sentence into words based on spaces.
+
+📝 Why Use This?
+
+Removes all punctuation in a single, scalable step.
+More robust than chaining multiple .replace() calls.
+Keeps your code clean and professional.
+
+🔍 Example:
+
+sentence = "Hello, world! This is Python—powerful, isn't it?"
+After cleaning:
+
+
+clean_sentence = "Hello world This is Pythonpowerful isnt it"
+words = clean_sentence.split()
+Now:
+
+
+print(len(words))  # ➤ 8

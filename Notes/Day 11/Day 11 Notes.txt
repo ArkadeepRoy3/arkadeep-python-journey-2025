@@ -1,0 +1,148 @@
+📘 Day 11 Notes: Dictionaries in Python
+📦 What is a Dictionary?
+A dictionary is a collection of key-value pairs.
+It is:
+
+Unordered (as of Python < 3.7), now insertion-ordered
+
+Mutable
+
+Keys must be unique
+
+Syntax: {key: value}
+
+🛠️ Creating a Dictionary
+
+student = {
+    "name": "Alice",
+    "age": 21,
+    "major": "Physics"
+}
+🔑 Accessing Values
+
+print(student["name"])       # Alice
+print(student.get("age"))    # 21
+print(student.get("grade"))  # None (instead of error)
+📝 Modifying Dictionary
+
+student["age"] = 22                 # Update
+student["university"] = "MIT"       # Add new key
+❌ Deleting Items
+
+del student["major"]           # Remove a key
+student.pop("age")             # Removes and returns value
+student.clear()                # Empties dictionary
+🔁 Looping through a Dictionary
+
+for key in student:
+    print(key, student[key])
+
+# OR
+
+for key, value in student.items():
+    print(f"{key} => {value}")
+
+📏 Dictionary Functions
+Function	Description
+len(d)	Number of items
+d.keys()	All keys
+d.values()	All values
+d.items()	All key-value pairs
+key in d	Check existence of key
+d.update()	Merge another dictionary
+
+🧠 Dictionary Comprehension (Bonus)
+
+squares = {x: x**2 for x in range(1, 6)}
+# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+📌 Common Use Cases
+Representing JSON-like data
+
+Contact books
+
+Counters / frequency maps
+
+Configuration settings
+
+| Expression            | Meaning                                |
+| --------------------- | -------------------------------------- |
+| `emoji_dict[word]`    | Return the **value** for the given key |
+| `emoji_dict.keys()`   | Get **all keys**                       |
+| `emoji_dict.values()` | Get **all values**                     |
+| `emoji_dict.items()`  | Get list of **(key, value)** pairs     |
+
+
+
+
+
+📅 Day 11 Summary — Dictionaries & Real-World Apps
+Date: 22 July 2025
+Theme: Powerful Python Dictionaries in Action
+
+🔑 Key Concepts Covered
+Concept	Description
+dict structure	Key-value pairs for fast lookup and mapping
+.get(), .items(), .keys()	Common methods to access/iterate over dictionaries
+Lookup logic	How to check for key presence (if key in dict:)
+Input parsing	How to split, clean, and process user input for dictionary use
+Data validation	Ensuring values are correct (e.g., 10-digit phone numbers)
+
+✅ Mini Missions Completed
+📇 Phonebook CLI App
+
+Add/Search/View contacts
+
+Input validation (10-digit number, name duplication)
+
+Dynamic menu-based control flow
+
+✅ Earned Badge: 📞 Contact Keeper (Day 11)
+
+📊 Frequency Counter
+
+Count how often each word appears
+
+Reinforced looping + dictionary updating logic
+
+✅ Earned Badge: 🧠 Word Frequency Wizard (Day 11)
+
+🔍 Dictionary Key Finder
+
+Check if user-entered items exist in a predefined dictionary
+
+✅ Earned Badge: 🔎 Dictionary Detective (Day 11)
+
+🛒 Dictionary Updater
+
+Modify item prices or add new items to store
+
+Used user input and live dictionary updates
+
+✅ Earned Badge: 🛠️ Dictionary Updater (Day 11)
+
+🧮 Value Summarizer (Skipped as it was very similar to Mission 2)
+
+🔄 Dictionary Merge Tool
+
+Combined two dictionaries, giving priority to second store
+
+✅ Earned Badge: 🔗 Dictionary Merger (Day 11)
+
+🏁 Total Badges Earned Today
+📞 Contact Keeper
+
+🧠 Word Frequency Wizard
+
+🔎 Dictionary Detective
+
+🛠️ Dictionary Updater
+
+🔗 Dictionary Merger
+
+🧠 Optional Practice (If you ever want later)
+Add file I/O to Phonebook CLI
+
+Convert it to a GUI using tkinter
+
+Use JSON for saving the phonebook persistently
+

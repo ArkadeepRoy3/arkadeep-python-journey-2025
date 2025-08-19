@@ -1,0 +1,56 @@
+📅 Day 9 – Nested Loops & Pattern Mastery:
+
+✅ Day 9 – Mastering Nested Loops & Patterns
+📁 Folder: Day09_NestedLoops_StarPatterns
+
+🧠 Concepts to Learn Today:
+✅ Nested loops (for loop inside a for loop)
+
+✅ How to use end="" and print() together for shaping output
+
+✅ Printing patterns using loops
+
+Star (*) patterns
+
+Number blocks
+
+Right, left, pyramid-shaped patterns
+
+🎯 Mini Missions for Today:
+🟨 Mini Mission 7: Star Pattern Printer
+📄 star_patterns.py
+
+Take an integer n as input.
+
+Print:
+
+*
+* *
+* * *
+* * * *
+🔁 Bonus: Add reverse triangle and pyramid options with if-elif branching.
+
+🟨 Mini Mission 8: Number Blocks
+📄 number_blocks.py
+
+For input n = 3, output:
+
+1 2 3
+1 2 3
+1 2 3
+🔁 Bonus: Create a menu:
+
+
+1. Star Triangle
+2. Reverse Triangle
+3. Number Block
+💡 Optional Stretch:
+🧩 Bonus: Turn pattern logic into reusable functions
+E.g., def print_triangle(n):, def print_block(n):
+
+Store in: pattern_menu_with_functions.py
+
+🧪 At the End:
+Once you complete today’s tasks, I’ll give you a Pattern Drill Challenge 🧠
+
+Then we move to Day 10 – String Slicing & Manipulations

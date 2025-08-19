@@ -1,0 +1,33 @@
+📝 Day 13 Notes: Set Mastery
+
+🔹 Creating Sets
+
+my_set = {"apple", "banana", "cherry"}
+empty_set = set()
+🔹 Adding and Removing
+
+my_set.add("orange")
+my_set.remove("banana")      # Errors if not found
+my_set.discard("grape")      # Safe remove
+🔹 Set Operations
+
+a = {"apple", "banana", "cherry"}
+b = {"banana", "cherry", "date"}
+
+a & b        # Intersection
+a | b        # Union
+a - b        # Only in a
+b - a        # Only in b
+a ^ b        # In either but not both
+🔹 Looping Over Sets
+
+for item in my_set:
+    print(item)
+🔹 Real-World Use Cases
+Removing duplicates from a list
+
+Checking for common elements
+
+Fast membership tests (in)
+
+Comparing preferences, behaviors, events, etc.

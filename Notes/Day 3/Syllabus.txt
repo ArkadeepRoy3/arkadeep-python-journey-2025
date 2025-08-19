@@ -1,0 +1,53 @@
+🧠 Day 3 – Mastering Operators, Math, and More Logic!
+Focus Areas: Arithmetic operators, math module, conditionals, compound logic, practical decision-making, and real-world applications.
+
+📘 Day 3 Syllabus (Curated by Pyro)
+✅ Arithmetic Operators Refresher
+
+✅ Using math Module – (import, sqrt, pow, floor, ceil, etc.)
+
+✅ Modulo (%) and Floor Division (//)
+
+✅ Logical Operators Recap (and, or, not)
+
+✅ Nested if-else and Compound Logic
+
+✅ Chained Comparisons (e.g., 20 <= x <= 40)
+
+✅ More on Input Validation
+
+✅ Real-Life Logical Problems with AI-like Flow
+
+✅ Mini Projects (if time permits)
+
+🧪 Mini Missions – Day 3
+#	Mini Mission Title	Core Concept
+1	Simple Calculator	Arithmetic Ops + Input
+2	Advanced Math Magic	Using math module
+3	Divisibility Checker	Modulo and Logic
+4	Age Category Finder	Logical Operators + Chained Logic
+5	Smart Access Control (v2)	Nested if + Compound Conditions
+6	Number Comparison Game	Input + Logic + Conditions
+7	Odd or Even in Style	Floor Division + Modulo
+8	Secure Pin Verification	Input + String + Logic
+
+🛠️ Mini Project (Optional if time permits)
+🔐 Project: ATM Simulator – Smart Console App
+Features:
+
+Pin Verification
+
+Check Balance
+
+Withdraw/Deposit Money
+
+Logout
+
+📝 Notes and Practice Style:
+📓 I’ll continue to give clear breakdowns after each concept
+
+📁 Daily recap as a PDF summary at the end
+
+📌 You’ll get badges for each mission with date
+
+🧠 Pyro’s Notes section will explain any tough logic

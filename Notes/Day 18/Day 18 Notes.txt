@@ -1,0 +1,59 @@
+📓 Notes & Syntax Reference
+1. Lambda Functions
+Anonymous, one-line functions without def.
+
+
+# Syntax
+lambda arguments: expression
+
+# Example
+add = lambda x, y: x + y
+print(add(3, 4))  # 7
+⚡ Key Points
+
+No return keyword (it’s implicit).
+
+For simple operations, not complex logic.
+
+Often used with map(), filter(), reduce().
+
+2. Functional Tools
+
+# map(function, iterable) → applies function to each element
+nums = [1, 2, 3]
+squares = list(map(lambda x: x**2, nums))
+
+# filter(function, iterable) → keeps elements where function returns True
+evens = list(filter(lambda x: x % 2 == 0, nums))
+
+# reduce(function, iterable) → reduces iterable to single value
+from functools import reduce
+product = reduce(lambda x, y: x * y, nums)
+
+3. List Comprehensions
+More compact way to create lists.
+
+
+# Syntax
+[expression for item in iterable if condition]
+
+nums = [1, 2, 3, 4, 5]
+squares = [x**2 for x in nums]
+evens = [x for x in nums if x % 2 == 0]
+4. Conditional Comprehension
+
+[x if x % 2 == 0 else "Odd" for x in range(1, 6)]
+
+5. Nested Comprehensions
+
+# Multiplication table
+table = [[i*j for j in range(1, 6)] for i in range(1, 6)]
+
+6. Set & Dict Comprehensions
+
+# Set comprehension
+unique_squares = {x**2 for x in range(1, 6)}
+
+# Dict comprehension
+words = ["apple", "banana", "kiwi"]
+lengths = {word: len(word) for word in words}

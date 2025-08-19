@@ -1,0 +1,56 @@
+🧠 Day 4 – Mastering Loops and Lists
+📌 Focus Areas:
+
+while and for loops
+
+break, continue, range()
+
+Working with lists
+
+Looping through lists
+
+Basic data processing and mini projects using loop logic
+
+📘 Day 4 Syllabus (Curated by Pyro)
+✅ while Loop – Syntax, flow, real examples
+✅ for Loop – Looping through ranges and sequences
+✅ range() Function – Usage with different parameters
+✅ break and continue – Control the loop flow smartly
+✅ else with loops – Hidden gem in Python loops
+✅ Intro to Lists – Creation, indexing, slicing
+✅ Adding, removing, modifying elements in a list
+✅ Looping through lists – for item in list: pattern
+✅ Basic list operations – len(), sum(), max(), etc.
+✅ Smart mini projects using loops and lists
+
+🧪 Mini Missions – Day 4
+#	Mini Mission Title	Key Concepts
+1	Count Till Blast	while loop, countdown logic
+2	Table Generator	for loop + range()
+3	Sum of Range	range() with accumulation
+4	Smart Number Filter	for, if, continue
+5	Loop Password Lock	while + control flow
+6	Topper Finder	List + loop + max
+7	Even-Odd Sorter	Loop + list filter logic
+8	Word Collector	Loop + user input + list
+9	List Analyzer	List creation + Iteration
+10	List Searcher	Loop + Condition in List
+11	List Filter: Evens Only	Loop + Condition + New List
+12	Number Splitter	String to List + Type Conversion
+13	Word Length Counter	List of words + len() in loop
+
+🛠️ Mini Project (Optional, if time permits)
+📚 Quiz Generator App
+Features:
+
+Question loop
+Score tracking
+User input checking
+Feedback at end
+
+📝 Notes Style:
+🔍 Each concept will be explained in Pyro’s Notes
+
+✅ You’ll get badges for each mission you complete
+
+📁 If you want a final day PDF again later, you can request it anytime

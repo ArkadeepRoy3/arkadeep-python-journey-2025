@@ -1,0 +1,18 @@
+✅ Day 9 – July 15, 2025
+🟠 Mini Mission 1: Square the Evens
+🏅 Badge Earned: Even Square Coder
+📅 Date: 16th July 2025
+
+"You squared up against the odds — and won!"
+
+🟠 Mini Mission 2: Unique Sorter
+🏅 Badge Earned: Unique Sorter Pro
+📅 Date: 16th July 2025
+
+"You filtered out the noise and sorted through the chaos!"
+
+🟨 Mini Mission 8: Pattern Menu System
+
+🏅 Badge Earned: 🧮 Pattern Master (Day 9)
+📂 File name: pattern_menu_with_functions.py
+📅 Date: 18 July 2025

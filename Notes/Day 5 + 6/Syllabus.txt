@@ -1,0 +1,57 @@
+📘 Day 5 Syllabus (Curated by Pyro)
+📌 Focus Areas:
+
+String slicing, searching, replacing
+
+Useful built-in string methods
+
+Creating and using functions
+
+Parameters, return values, scope
+
+Practical problem-solving with functions and strings
+
+✅ Core Concepts to Learn
+#	Topic	Details
+1	Advanced String Manipulation	Indexing, slicing, case changing, find, replace
+2	String Methods	lower(), upper(), strip(), split(), join(), replace(), etc.
+3	Function Basics	def keyword, function calls
+4	Parameters & Arguments	Passing values to functions
+5	Return Statement	Returning results instead of printing
+6	Variable Scope	Local vs Global
+7	Function Composition	Using functions inside functions
+8	Docstrings and Clean Design	Writing clean, readable functions
+
+🧪 Mini Missions – Day 5
+#	Title	Key Concepts
+1	Word Reverser	String slicing, functions
+2	Clean Sentence	Strip punctuation, lower(), replace()
+3	Vowel Counter	Loop + string methods
+4	Word Frequency Counter	Dictionaries + loop
+5	Grading System	Function + logic
+6	Palindrome Checker	String reverse logic
+7	Leap Year Checker	Condition + function
+8	Logic Combo Fun	Logical operators + functions
+
+🛠️ Mini Project (Optional)
+📚 Smart Text Analyzer
+Features:
+
+Count words, vowels, longest word
+
+Detect palindromes
+
+Case report (UPPER/lower count)
+
+Modular with functions
+
+📓 Pyro’s Notes Style
+Key concepts explained first
+
+Step-by-step examples
+
+Code + logic breakdowns
+
+Best practices for function writing
+
+You’ll get badges for each mini mission

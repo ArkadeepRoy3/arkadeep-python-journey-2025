@@ -1,0 +1,56 @@
+🏅 Data Detective Badge
+Achieved on: 02/07/2025
+✅ Used input + type conversion
+✅ Used type() to display data types
+
+🏅 You Earned: Type Shifter Badge
+📅 Date Earned: 2025-07-02
+📛 For skillfully converting between strings, integers, and floats and combining them with Python magic.
+
+
+🏅 Badge Unlocked!
+★ Mini Mission 1: Type Twister — Completed! (2025-07-02)
+
+🏅 Mini Mission Badge Unlocked!
+✅ ★ Mini Mission 2: String Lab — Completed! (2025-07-02)
+
+🏅 Badge Earned:
+Mini Mission 3 – Type Detective
+🗓️ Earned on: 2nd July 2025
+💬 “Identified and converted inputs like a true Python sleuth!”
+
+🟢 Badge Earned: 
+Word Frequency Master
+Mini Mission 5 – Completed
+📅 Date: July 2, 2025
+✅ You wrote clean, structured code to:
+Remove punctuation from sentences
+Convert text to lowercase
+Split into words
+Count each word’s frequency using a dictionary
+
+
+🏅 Badge Earned:
+Mini Mission 6 – Grading System
+✅ Status: Completed
+📅 Date: 2nd July 2025
+🧠 Concepts: if-elif, comparison operators, input handling
+
+
+🏅 Grade: A+ (Mini Mission 7 – 02 July 2025)
+💬 Feedback:
+Perfect alignment use! You clearly understood and applied :<, :>, and :^. The currency and scientific formatting was also on point. The bonus table looks clean too. You've now unlocked professional-level string formatting skills — one of the most overlooked but valuable developer tools.
+
+🔁 Palindrome Pro Badge
+For successfully checking complex palindromes using string cleanup and reversal logic.
+Earned: 02 July 2025
+
+🏅 Leap Logic Badge  
+Earned: 2nd July 2025  
+Achievement: Successfully implemented leap year logic using the correct conditions.  
+Redemption Status: ✅ Earned on second attempt with corrected logic and range check!
+
+🏅 Logical Mastery Badge  
+Earned: 2nd July 2025  
+Achievement: Combined conditional logic and user input to simulate a real-world access system.  
+Comments: 100% logic, 100% your own — a proud moment!

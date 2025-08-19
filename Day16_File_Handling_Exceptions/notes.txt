@@ -1,0 +1,4 @@
+Python is powerful.
+It is great for automation, data science, and more.
+The syntax is clean and readable.
+Keep practicing and you'll master it!

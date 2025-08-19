@@ -1,0 +1,109 @@
+🧠 Pyro’s Notes – While Loop Refresher
+✅ What is a while loop?
+A while loop repeats a block of code as long as a condition is True.
+
+python
+Copy
+Edit
+count = 5
+while count > 0:
+    print(count)
+    count -= 1
+This will print 5, 4, 3, 2, 1 (and then stop when count becomes 0)
+
+⚠️ Important:
+ALWAYS update the variable inside the loop, or it may run forever (infinite loop).
+You can use break to exit a loop early.
+Use continue to skip the rest of the loop for one iteration.
+
+
+🧠 Pyro’s Notes - Before You Begin
+Here’s a quick refresher (skip if you’re confident):
+
+🔁 for loop + range():
+python
+Copy
+Edit
+for i in range(1, 11):
+    print(i)
+This will print numbers from 1 to 10 (because range is exclusive of the last number).
+
+
+
+📚 Pyro’s Notes – Introduction to Lists in Python
+In Python, a list is a container used to store multiple values in a single variable.
+
+🛠️ Creating a List
+
+marks = [85, 92, 78, 95]
+names = ["Arka", "Ria", "Tara"]
+A list can contain:
+
+Integers
+Strings
+Even mixed types (but we usually keep it clean!)
+
+📦 Accessing Elements (Indexing)
+
+print(marks[0])   # 85 (1st element)
+print(marks[2])   # 78 (3rd element)
+✅ Index starts from 0 in Python.
+
+🌀 Looping Through a List
+
+for score in marks:
+    print(score)
+
+Or with index:
+
+for i in range(len(marks)):
+    print(marks[i])
+
+🧰 Adding to a List
+
+marks.append(88)  # Adds to end of the list
+
+🧹 Modifying an Element
+
+marks[1] = 90  # Changes 2nd score to 90
+
+💣 Removing an Element
+
+marks.remove(78)  # Removes value 78
+del marks[0]      # Removes item at index 0
+
+🎓 List Functions You'll Love
+
+Function	Description
+
+len(list)	Count of elements
+sum(list)	Total of all numbers
+max(list)	Largest number
+min(list)	Smallest number
+list.sort()	Sorts the list in ascending order
+
+
+Mini Mission 12 – Number Splitter 🔢
+
+🎯 Mission Goal:
+You’ll take a number from the user as a string, split it into individual digits, convert each to int, and store them in a list.
+
+🔍 Pyro’s Notes – Key Concepts
+
+🧵 1. String is like a sequence
+You can loop through each character in a string just like a list:
+
+for char in "5271":
+    print(char)  # prints 5, 2, 7, 1 (as strings)
+🔁 2. Type conversion
+Each digit will be a string, so you’ll need to convert:
+
+digit = int(char)
+
+📥 3. Building the digit list
+Initialize an empty list and append the converted digits to it.
+
+🧪 Example:
+If user enters 7235, your code should generate:
+
+📦 Digit List: [7, 2, 3, 5]

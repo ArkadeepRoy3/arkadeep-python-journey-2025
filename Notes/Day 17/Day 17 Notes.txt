@@ -1,0 +1,134 @@
+🧠 Core Notes & Syntax – Modular Thinking & CLI Design
+🔹 1. __name__ == "__main__" — Entry Point Logic
+✅ Purpose:
+Lets you write code that can be both imported as a module and run as a script.
+
+
+# file: greet.py
+def say_hello(name):
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    say_hello("Arka")  # Only runs if script is executed directly
+When imported from another file:
+
+import greet  # __name__ in greet.py becomes "greet", so the block won't run
+🔹 2. Modular Structure
+✅ Key Terms:
+Term	Meaning
+Module	A single .py file you can import
+Package	A folder with __init__.py containing multiple modules
+Script	A .py file intended to be executed directly
+
+✅ Folder Example:
+
+day17_modular_cli/
+├── main.py
+├── math_utils.py
+└── file_tools/
+    ├── __init__.py
+    └── cleaner.py
+🔹 3. import Mechanics
+
+# math_utils.py
+def add(a, b):
+    return a + b
+
+# main.py
+import math_utils
+
+print(math_utils.add(2, 3))  # Output: 5
+🔹 4. Argument Parsing with argparse
+✅ Basic Syntax:
+
+import argparse
+
+parser = argparse.ArgumentParser(description="Echo Tool")
+parser.add_argument("message", help="Message to echo")
+parser.add_argument("--shout", action="store_true", help="Uppercase the message")
+
+args = parser.parse_args()
+
+if args.shout:
+    print(args.message.upper())
+else:
+    print(args.message)
+Run from terminal:
+
+
+python echo.py "hello world" --shout
+# Output: HELLO WORLD
+✅ Supported Types:
+Arg Type	Syntax Example
+Positional	parser.add_argument("filename")
+Optional Flag	--verbose, --count, etc.
+Store Bool	action="store_true"
+Type Enforcement	type=int, type=float
+Default Value	default=5
+
+🔹 5. CLI Menu (Old School Way)
+If not using argparse, use raw input + conditionals:
+
+
+while True:
+    print("1. Say Hello\n2. Exit")
+    choice = input("Enter option: ")
+    if choice == '1':
+        print("Hello!")
+    elif choice == '2':
+        break
+🔹 6. Python Packages
+Folder with __init__.py = treated as a package
+
+Lets you organize utilities logically
+
+
+# file_tools/cleaner.py
+def clean():
+    print("Cleaning...")
+
+# main.py
+from file_tools import cleaner
+cleaner.clean()
+🔹 7. Recommended Folder Layouts
+For CLI Tools with argparse:
+
+day17_modular_cli/
+├── my_tool.py         # main CLI entry point
+├── helpers.py         # supporting logic
+├── __init__.py        # optional for packaging
+
+Day 17 – Modular CLI & Special Python Behaviors
+Core Concepts:
+
+Modular CLI Structure
+
+Separate logic into multiple files/modules.
+
+import to reuse code.
+
+Keep CLI logic (main.py) separate from functional logic (calc.py, utils.py).
+
+Import Mechanics
+
+import module loads code once into memory.
+
+Re-importing doesn’t re-run unless using importlib.reload().
+
+Mutable vs Immutable Objects
+
+Mutable: Lists, dicts → changing one reference changes all pointing to it.
+
+Immutable: ints, strings → reassignment creates a new object.
+
+__import__() for Dynamic Imports
+
+Allows importing modules whose names are decided at runtime.
+
+Must handle ModuleNotFoundError & ImportError.
+
+Error Handling in Imports
+
+Validate user input before importing.
+
+Catch exceptions to prevent crashes.

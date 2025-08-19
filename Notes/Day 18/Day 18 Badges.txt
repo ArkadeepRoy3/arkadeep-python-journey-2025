@@ -1,0 +1,22 @@
+🏅 Badge Log – 11 Aug 2025
+MM1 – Lambda Calculator
+Clean and functional lambdas for add, subtract, multiply, and divide with basic error handling.
+
+🏅 Badge Log – 11th August 2025
+MM2 – Even Filter – Clean use of lambda + filter() for both numbers and employee IDs, executed with precision.
+
+🏅 Badge Log – 11 Aug 2025
+MM3 - Square Mapper
+Efficient use of lambda + map to produce squares and cubes — concise, correct, and well-structured.
+
+🏅 Badge Log – 11th August 2025
+MM4 – Word Length Dict – Clean, Pythonic dict comprehension without redundancy. Solid mastery shown.
+
+🏅 Badge Log – 11 Aug 2025
+MM5 – Common Elements Finder
+Found common elements between two lists while preserving first-list order and removing duplicates.
+
+🏅 Badge Log – 11 Aug 2025
+MM6 – Reverse String List
+Reversed each word concisely using a memory-efficient generator + map — clean and correct.
+

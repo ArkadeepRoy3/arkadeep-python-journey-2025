@@ -1,0 +1,54 @@
+🗓️ Day 12: Dictionary Mastery II – Deep Dive
+🎯 Primary Focus
+You already know the basics of dictionaries. Today’s focus is:
+
+Nesting and combining dictionaries
+
+Iterating smartly with .items(), .values(), .keys()
+
+Using .get(), .setdefault(), .pop(), .update()
+
+Advanced transformations and mini projects using dictionaries
+
+📚 Mini Missions for Day 12
+|  # | Title                                                                       | Filename                          |
+| -: | --------------------------------------------------------------------------- | --------------------------------- |
+|  0 | **Mini Review**                                                             | *(verbal walkthrough recap only)* |
+|  1 | **Inventory Stock Manager** (with nested dictionaries)                      | `inventory_stock.py`              |
+|  2 | **Dict Transformer** (changing values with logic)                           | `dict_transformer.py`             |
+|  3 | **Smart Dictionary Tools** (using `.get`, `.setdefault`, `.update`, `.pop`) | `dict_tools.py`                   |
+|  4 | **Reverse Lookup** (search by value)                                        | `reverse_lookup.py`               |
+|  5 | **Dict Visualizer** (print formatted dictionary data)                       | `dict_visualizer.py`              |
+
+🧠 Key Concepts to Revise
+These will come in handy throughout today's work.
+
+🔑 Dictionary Methods
+
+dict.get(key, default)         # Safe access
+dict.setdefault(key, default)  # Set default if key not present
+dict.update(other_dict)        # Merge another dict
+dict.pop(key)                  # Remove and return key
+
+🔁 Iteration Patterns
+
+for key in my_dict: ...
+for key, value in my_dict.items(): ...
+for val in my_dict.values(): ...
+
+🧱 Nesting Example
+
+inventory = {
+    "apple": {"price": 30, "stock": 10},
+    "banana": {"price": 10, "stock": 5}
+}
+
+
+✅ End-of-Day Checklist (for later today)
+ All 6 mini missions completed
+
+ Earned Dict Dynamo badge
+
+ Confidence using advanced dictionary techniques
+
+ Optional: Try a LeetCode "Easy" problem involving dictionaries
