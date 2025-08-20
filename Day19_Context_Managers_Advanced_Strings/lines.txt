@@ -1,0 +1,3 @@
+Python is fun
+Context managers are useful
+Files are easy with with

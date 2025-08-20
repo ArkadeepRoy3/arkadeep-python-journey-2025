@@ -1,0 +1,17 @@
+📌 Notes
+
+Context Managers: Use with for safe file handling, auto-closing resources.
+
+Advanced String Methods:
+
+.startswith() / .endswith() → validate prefixes/suffixes.
+
+.expandtabs(n) → replace tabs with spaces (n width).
+
+.partition(sep) → splits at first occurrence of sep.
+
+.rpartition(sep) → splits at last occurrence of sep.
+
+.strip(), .split(), .join() → cleanup and formatting tools.
+
+Takeaway: Combine methods for powerful text processing pipelines.

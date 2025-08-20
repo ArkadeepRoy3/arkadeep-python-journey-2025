@@ -1,0 +1,28 @@
+🏅 Badge Log – 20 Aug 2025
+Context Managers
+
+MM1 – Safe Writer
+Wrote text to a file using with and read it back safely.
+
+MM2 – Line Counter
+Counted lines in a file using a context manager.
+
+MM3 – Custom Context Manager (Class)
+Built a class-based context manager with __enter__ and __exit__.
+
+MM4 – Custom Context Manager (Decorator)
+Created a context manager using @contextmanager from contextlib.
+
+Advanced String Methods
+
+MM5 – Partition Play
+Used .partition() and .rpartition() to compare string splitting.
+
+MM6 – Prefix/Suffix Checker
+Validated filenames with .startswith() and .endswith().
+
+MM7 – Tab Expander
+Formatted tabbed strings with .expandtabs().
+
+MM8 – Mixed String Lab
+Combined partitioning, stripping, joining, and tab expansion in one solution.

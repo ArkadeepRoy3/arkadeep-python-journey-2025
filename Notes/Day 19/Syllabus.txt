@@ -1,0 +1,21 @@
+📝 Day 19 – Mini Missions
+Context Managers
+
+Safe Writer – Write text to a file using with and then read it back safely.
+
+Line Counter – Count how many lines a file has using a context manager.
+
+Custom Context Manager (Class) – Build your own class-based context manager that prints when entering and exiting.
+
+Custom Context Manager (Decorator) – Use @contextmanager from contextlib to create one that manages a resource.
+
+
+Advanced String Methods
+
+Partition Play – Use .partition() and .rpartition() on a string and compare results.
+
+Prefix/Suffix Checker – Use .startswith() and .endswith() to validate filenames.
+
+Tab Expander – Use .expandtabs() to properly format a string with tabs.
+
+Mixed String Lab – Combine multiple advanced string methods in one exercise (partition + strip + join + expandtabs).
