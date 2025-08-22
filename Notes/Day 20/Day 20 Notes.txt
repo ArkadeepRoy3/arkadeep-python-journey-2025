@@ -1,0 +1,39 @@
+📓 Day 20 Notes — Error Handling + Context Managers
+
+🔹 Error Handling
+
+Raising exceptions:
+
+raise ValueError("Message")
+raise TypeError("Message")
+
+
+Custom exceptions:
+
+class MyError(Exception):
+    pass
+
+
+Try/Except/Else/Finally:
+
+try → code that may fail.
+
+except → runs if error occurs.
+
+else → runs only if no error.
+
+finally → always runs (cleanup, logging, closing files).
+
+🔹 Context Managers (with)
+
+Simplifies resource management → ensures file/db/socket is closed even on error.
+
+Multiple managers can be used at once:
+
+with open("a.txt") as f1, open("b.txt") as f2:
+    ...
+
+
+Can nest with or use a loop to apply the same operation to multiple resources.
+
+Exceptions inside context managers can be caught with nested try/except.

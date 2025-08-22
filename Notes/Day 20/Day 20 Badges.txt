@@ -1,0 +1,11 @@
+🏅 Day 20 Badges (21st August 2025)
+
+Raise Ranger 🏹 (for practicing exception raising)
+
+Custom Crafter 🛠 (for building your own exception class)
+
+Flow Master 🔄 (for mastering try/else/finally)
+
+Dual Scribe ✍️✍️ (for writing to multiple files with nested/combined context managers)
+
+Graceful Guardian 🛡 (for handling errors inside context managers)

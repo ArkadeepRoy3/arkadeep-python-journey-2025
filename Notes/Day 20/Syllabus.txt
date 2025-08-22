@@ -1,0 +1,15 @@
+⚡ Mini Missions Plan (Day 20):
+
+Error Handling:
+
+MM1: Raise It Up – Practice raising built-in exceptions (ValueError, TypeError).
+
+MM2: Custom Exception Crafter – Build a custom exception class.
+
+MM3: Try-Else-Finally – Show how else and finally work with try/except.
+
+Context Managers (advanced):
+
+MM4: Double Writer – Use nested with to write into two files at once.
+
+MM5: Error Inside Manager – Handle an error gracefully while inside a context manager.
